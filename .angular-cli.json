@@ -19,9 +19,12 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "../node_modules/cesium/Build/Cesium/Widgets/widgets.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/cesium/Build/Cesium/Cesium.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
